@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:social_wings/screens/Home/home_page.dart';
 import 'package:social_wings/screens/Splash/spalash.dart';
 
 void main() {
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Color(0XFF5E5E5E)),
         useMaterial3: false,
       ),
-      home: Spalash(),
+
+      home: HomePage(),
     );
   }
 }
